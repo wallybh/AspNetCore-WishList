@@ -1,8 +1,8 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace WishList.Models
 {
-    class Item
+    public class Item
     {
         public int Id { get; set; }
         [Required, MaxLength(50)]
